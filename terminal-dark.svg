@@ -1,0 +1,80 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 880 297" width="880" height="297" role="img" aria-label="Terminal session: whoami, ls trees/, cat trees/.now, xdg-open https://www.c127.dev">
+<style>
+svg{--code:#151b23;--line:#30363d;--fg:#e6edf3;--muted:#9198a1;--prompt:#56d364;--arg:#d2a8ff}
+text{font-family:ui-monospace,SFMono-Regular,"SF Mono",Menlo,Consolas,"Liberation Mono",monospace;font-size:13.5px;white-space:pre}
+.host{fill:var(--prompt)}
+.arg{fill:var(--arg)}
+.plain{fill:var(--fg)}
+.out{fill:var(--muted)}
+.caret{fill:var(--fg)}
+@keyframes blink{0%,49%{opacity:1}50%,100%{opacity:0}}
+@keyframes ty1{0%,4.44%{clip-path:inset(0 100% 0 0)}9.44%,84.44%{clip-path:inset(0 0 0 0)}84.45%,100%{clip-path:inset(0 100% 0 0)}}
+@keyframes cx1{0%,4.44%{transform:translateX(0)}9.44%,84.44%{transform:translateX(48.6px)}84.45%,100%{transform:translateX(0)}}
+@keyframes cr1{0%,10.55%{opacity:1}10.56%,84.44%{opacity:0}84.45%,100%{opacity:1}}
+@keyframes o1{0%,10.55%{opacity:0}10.56%,84.44%{opacity:1}84.45%,100%{opacity:0}}
+@keyframes ln2{0%,14.43%{opacity:0}14.44%,84.44%{opacity:1}84.45%,100%{opacity:0}}
+@keyframes ty2{0%,14.44%{clip-path:inset(0 100% 0 0)}21.11%,84.44%{clip-path:inset(0 0 0 0)}84.45%,100%{clip-path:inset(0 100% 0 0)}}
+@keyframes cx2{0%,14.44%{transform:translateX(0)}21.11%,84.44%{transform:translateX(72.9px)}84.45%,100%{transform:translateX(0)}}
+@keyframes cr2{0%,14.43%{opacity:0}14.44%,22.209999999999997%{opacity:1}22.22%,100%{opacity:0}}
+@keyframes o2{0%,22.209999999999997%{opacity:0}22.22%,84.44%{opacity:1}84.45%,100%{opacity:0}}
+@keyframes ln3{0%,26.66%{opacity:0}26.67%,84.44%{opacity:1}84.45%,100%{opacity:0}}
+@keyframes ty3{0%,26.67%{clip-path:inset(0 100% 0 0)}36.67%,84.44%{clip-path:inset(0 0 0 0)}84.45%,100%{clip-path:inset(0 100% 0 0)}}
+@keyframes cx3{0%,26.67%{transform:translateX(0)}36.67%,84.44%{transform:translateX(113.4px)}84.45%,100%{transform:translateX(0)}}
+@keyframes cr3{0%,26.66%{opacity:0}26.67%,37.77%{opacity:1}37.78%,100%{opacity:0}}
+@keyframes o3{0%,37.77%{opacity:0}37.78%,84.44%{opacity:1}84.45%,100%{opacity:0}}
+@keyframes ln4{0%,42.21%{opacity:0}42.22%,84.44%{opacity:1}84.45%,100%{opacity:0}}
+@keyframes ty4{0%,42.22%{clip-path:inset(0 100% 0 0)}58.89%,84.44%{clip-path:inset(0 0 0 0)}84.45%,100%{clip-path:inset(0 100% 0 0)}}
+@keyframes cx4{0%,42.22%{transform:translateX(0)}58.89%,84.44%{transform:translateX(234.9px)}84.45%,100%{transform:translateX(0)}}
+@keyframes cr4{0%,42.21%{opacity:0}42.22%,59.99%{opacity:1}60%,100%{opacity:0}}
+@keyframes o4{0%,59.99%{opacity:0}60%,84.44%{opacity:1}84.45%,100%{opacity:0}}
+@keyframes ln5{0%,64.42999999999999%{opacity:0}64.44%,84.44%{opacity:1}84.45%,100%{opacity:0}}
+@keyframes ty5{0%,76.67%{clip-path:inset(0 100% 0 0)}81.11%,84.44%{clip-path:inset(0 0 0 0)}84.45%,100%{clip-path:inset(0 100% 0 0)}}
+@keyframes cx5{0%,76.67%{transform:translateX(0)}81.11%,84.44%{transform:translateX(40.5px)}84.45%,100%{transform:translateX(0)}}
+@keyframes cr5{0%,64.42999999999999%{opacity:0}64.44%,84.42999999999999%{opacity:1}84.44%,100%{opacity:0}}
+</style>
+<rect x="0.5" y="0.5" width="879" height="296" rx="6" ry="6" fill="var(--code)" stroke="var(--line)"/>
+  <g>
+    <text x="22" y="34" class="host" textLength="121.5" lengthAdjust="spacingAndGlyphs">c127@github.com</text>
+    <text x="143.5" y="34" class="plain" textLength="8.1" lengthAdjust="spacingAndGlyphs">:</text>
+    <text x="151.6" y="34" class="arg" textLength="8.1" lengthAdjust="spacingAndGlyphs">~</text>
+    <text x="159.7" y="34" class="plain" textLength="8.1" lengthAdjust="spacingAndGlyphs">$</text>
+    <g style="animation:ty1 18s steps(6,end) infinite"><text x="175.9" y="34" class="plain" textLength="48.6" lengthAdjust="spacingAndGlyphs">whoami</text></g>
+    <g style="animation:cr1 18s linear infinite"><g style="animation:cx1 18s steps(6,end) infinite"><rect x="175.9" y="23" width="8.1" height="15.5" class="caret" style="animation:blink 1s steps(1,end) infinite"/></g></g>
+    <g style="animation:o1 18s linear infinite"><text x="22" y="55" class="out" textLength="388.8" lengthAdjust="spacingAndGlyphs">c127 - drivers, firmware, OpenWrt board bring-up</text></g>
+  </g>
+  <g style="animation:ln2 18s linear infinite">
+    <text x="22" y="89" class="host" textLength="121.5" lengthAdjust="spacingAndGlyphs">c127@github.com</text>
+    <text x="143.5" y="89" class="plain" textLength="8.1" lengthAdjust="spacingAndGlyphs">:</text>
+    <text x="151.6" y="89" class="arg" textLength="8.1" lengthAdjust="spacingAndGlyphs">~</text>
+    <text x="159.7" y="89" class="plain" textLength="8.1" lengthAdjust="spacingAndGlyphs">$</text>
+    <g style="animation:ty2 18s steps(9,end) infinite"><text x="175.9" y="89" class="plain" textLength="72.9" lengthAdjust="spacingAndGlyphs">ls trees/</text></g>
+    <g style="animation:cr2 18s linear infinite"><g style="animation:cx2 18s steps(9,end) infinite"><rect x="175.9" y="78" width="8.1" height="15.5" class="caret" style="animation:blink 1s steps(1,end) infinite"/></g></g>
+    <g style="animation:o2 18s linear infinite"><text x="22" y="110" class="out" textLength="421.2" lengthAdjust="spacingAndGlyphs">linux/   u-boot/   openwrt/   armbian/   containers/</text></g>
+  </g>
+  <g style="animation:ln3 18s linear infinite">
+    <text x="22" y="144" class="host" textLength="121.5" lengthAdjust="spacingAndGlyphs">c127@github.com</text>
+    <text x="143.5" y="144" class="plain" textLength="8.1" lengthAdjust="spacingAndGlyphs">:</text>
+    <text x="151.6" y="144" class="arg" textLength="8.1" lengthAdjust="spacingAndGlyphs">~</text>
+    <text x="159.7" y="144" class="plain" textLength="8.1" lengthAdjust="spacingAndGlyphs">$</text>
+    <g style="animation:ty3 18s steps(14,end) infinite"><text x="175.9" y="144" class="plain" textLength="113.4" lengthAdjust="spacingAndGlyphs">cat trees/.now</text></g>
+    <g style="animation:cr3 18s linear infinite"><g style="animation:cx3 18s steps(14,end) infinite"><rect x="175.9" y="133" width="8.1" height="15.5" class="caret" style="animation:blink 1s steps(1,end) infinite"/></g></g>
+    <g style="animation:o3 18s linear infinite"><text x="22" y="165" class="out" textLength="437.4" lengthAdjust="spacingAndGlyphs">RTL8367S SGMII/HSGMII on IPQ5018, on its way upstream.</text></g>
+  </g>
+  <g style="animation:ln4 18s linear infinite">
+    <text x="22" y="199" class="host" textLength="121.5" lengthAdjust="spacingAndGlyphs">c127@github.com</text>
+    <text x="143.5" y="199" class="plain" textLength="8.1" lengthAdjust="spacingAndGlyphs">:</text>
+    <text x="151.6" y="199" class="arg" textLength="8.1" lengthAdjust="spacingAndGlyphs">~</text>
+    <text x="159.7" y="199" class="plain" textLength="8.1" lengthAdjust="spacingAndGlyphs">$</text>
+    <g style="animation:ty4 18s steps(29,end) infinite"><text x="175.9" y="199" class="plain" textLength="234.9" lengthAdjust="spacingAndGlyphs">xdg-open https://www.c127.dev</text></g>
+    <g style="animation:cr4 18s linear infinite"><g style="animation:cx4 18s steps(29,end) infinite"><rect x="175.9" y="188" width="8.1" height="15.5" class="caret" style="animation:blink 1s steps(1,end) infinite"/></g></g>
+    <g style="animation:o4 18s linear infinite"><text x="22" y="220" class="out" textLength="226.8" lengthAdjust="spacingAndGlyphs">opening https://www.c127.dev</text></g>
+  </g>
+  <g style="animation:ln5 18s linear infinite">
+    <text x="22" y="254" class="host" textLength="121.5" lengthAdjust="spacingAndGlyphs">c127@github.com</text>
+    <text x="143.5" y="254" class="plain" textLength="8.1" lengthAdjust="spacingAndGlyphs">:</text>
+    <text x="151.6" y="254" class="arg" textLength="8.1" lengthAdjust="spacingAndGlyphs">~</text>
+    <text x="159.7" y="254" class="plain" textLength="8.1" lengthAdjust="spacingAndGlyphs">$</text>
+    <g style="animation:ty5 18s steps(5,end) infinite"><text x="175.9" y="254" class="plain" textLength="40.5" lengthAdjust="spacingAndGlyphs">clear</text></g>
+    <g style="animation:cr5 18s linear infinite"><g style="animation:cx5 18s steps(5,end) infinite"><rect x="175.9" y="243" width="8.1" height="15.5" class="caret" style="animation:blink 1s steps(1,end) infinite"/></g></g>
+  </g>
+</svg>
