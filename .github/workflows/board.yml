@@ -1,0 +1,61 @@
+name: board
+
+on:
+  schedule:
+    - cron: '17 3 * * *'
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - 'tools/**'
+      - '.github/workflows/board.yml'
+
+permissions:
+  contents: write
+
+concurrency:
+  group: board
+  cancel-in-progress: true
+
+jobs:
+  render:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+
+      - name: Render
+        run: |
+          node tools/gen-maze.mjs "${{ github.repository_owner }}" dist
+          node tools/gen-terminal.mjs dist
+          cat dist/maze-stats.json
+
+      - name: Publish to the output branch
+        run: |
+          set -eu
+          git config user.name  'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+
+          if git ls-remote --exit-code --heads origin output >/dev/null 2>&1; then
+            git fetch origin output:output
+            git worktree add out output
+          else
+            git worktree add --orphan -b output out
+          fi
+
+          rm -f out/*.svg out/*.json
+          cp dist/* out/
+
+          cd out
+          git add -A
+          if git diff --cached --quiet; then
+            echo 'board unchanged'
+          else
+            git commit -m "board: $(date -u +%F)"
+            git push origin output
+          fi
