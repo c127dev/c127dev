@@ -23,7 +23,7 @@ const pct = (t) => Math.round((t / D) * 10000) / 100;
 const lines = [
   { cmd: 'whoami', type: [0.8, 1.7], out: 1.9, text: 'c127 - drivers, firmware, OpenWrt board bring-up' },
   { cmd: 'ls trees/', appear: 2.6, type: [2.6, 3.8], out: 4.0, text: 'linux/   u-boot/   openwrt/   armbian/   containers/' },
-  { cmd: 'cat trees/.now', appear: 4.8, type: [4.8, 6.6], out: 6.8, text: 'RTL8367S SGMII/HSGMII on IPQ5018, on its way upstream.' },
+  { cmd: 'cat trees/.now', appear: 4.8, type: [4.8, 6.6], out: 6.8, text: 'qualcommax: add support for Mercusys MR80X v2.' },
   { cmd: 'xdg-open https://www.c127.dev', appear: 7.6, type: [7.6, 10.6], out: 10.8, text: 'opening https://www.c127.dev' },
   { cmd: 'clear', appear: 11.6, type: [13.8, 14.6], out: null, text: null }
 ];
