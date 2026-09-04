@@ -3,15 +3,15 @@
   "mode": "sparse",
   "days": 370,
   "weeks": 53,
-  "activeDays": 27,
-  "powerPellets": 27,
+  "activeDays": 28,
+  "powerPellets": 28,
   "powerFloor": 1,
-  "ticks": 751,
-  "seconds": 42,
-  "deaths": 2,
-  "chasersEaten": 4,
+  "ticks": 667,
+  "seconds": 37,
+  "deaths": 1,
+  "chasersEaten": 8,
   "cleared": true,
   "remaining": 0,
-  "walls": 249,
-  "generated": "2026-09-04T08:03:30.734Z"
+  "walls": 257,
+  "generated": "2026-09-04T20:00:20.737Z"
 }

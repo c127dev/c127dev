@@ -58,7 +58,7 @@ text{font-family:ui-monospace,SFMono-Regular,"SF Mono",Menlo,Consolas,"Liberatio
     <text x="159.7" y="144" class="plain" textLength="8.1" lengthAdjust="spacingAndGlyphs">$</text>
     <g style="animation:ty3 18s steps(14,end) infinite"><text x="175.9" y="144" class="plain" textLength="113.4" lengthAdjust="spacingAndGlyphs">cat trees/.now</text></g>
     <g style="animation:cr3 18s linear infinite"><g style="animation:cx3 18s steps(14,end) infinite"><rect x="175.9" y="133" width="8.1" height="15.5" class="caret" style="animation:blink 1s steps(1,end) infinite"/></g></g>
-    <g style="animation:o3 18s linear infinite"><text x="22" y="165" class="out" textLength="437.4" lengthAdjust="spacingAndGlyphs">RTL8367S SGMII/HSGMII on IPQ5018, on its way upstream.</text></g>
+    <g style="animation:o3 18s linear infinite"><text x="22" y="165" class="out" textLength="372.6" lengthAdjust="spacingAndGlyphs">qualcommax: add support for Mercusys MR80X v2.</text></g>
   </g>
   <g style="animation:ln4 18s linear infinite">
     <text x="22" y="199" class="host" textLength="121.5" lengthAdjust="spacingAndGlyphs">c127@github.com</text>
