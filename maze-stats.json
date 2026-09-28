@@ -1,17 +1,17 @@
 {
   "user": "c127dev",
   "mode": "sparse",
-  "days": 365,
+  "days": 366,
   "weeks": 53,
-  "activeDays": 43,
-  "powerPellets": 43,
+  "activeDays": 44,
+  "powerPellets": 44,
   "powerFloor": 1,
-  "ticks": 796,
-  "seconds": 44,
+  "ticks": 871,
+  "seconds": 48,
   "deaths": 2,
-  "chasersEaten": 7,
+  "chasersEaten": 4,
   "cleared": true,
   "remaining": 0,
-  "walls": 253,
-  "generated": "2026-09-27T09:21:41.059Z"
+  "walls": 252,
+  "generated": "2026-09-28T09:55:43.114Z"
 }
